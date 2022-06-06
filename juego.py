@@ -46,8 +46,8 @@ def jugar_una_partida(numero, minimo, maximo):
 
 def decidir_limites():
     while True:
-        minimo = pedir_entrada_numero("Quelle est la borne minimale ?")
-        maximo = pedir_entrada_numero("Quelle est la borne maximale ?")
+        minimo = pedir_entrada_numero("Cuál es el límite inferior ?")
+        maximo = pedir_entrada_numero("Cuál es el límite superior ?")
         if maximo > minimo:
             return minimo, maximo
 
